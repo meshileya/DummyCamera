@@ -1,9 +1,4 @@
 PODS:
-  - Dimmer (2.2.0):
-    - FadeView (~> 2.0)
-    - SnapKit
-    - UIViewKVO (~> 2.0)
-  - FadeView (2.0.0)
   - Firebase (6.16.0):
     - Firebase/Core (= 6.16.0)
   - Firebase/Analytics (6.16.0):
@@ -119,13 +114,10 @@ PODS:
   - PromisesObjC (1.2.8)
   - Protobuf (3.11.2)
   - PureLayout (3.1.5)
-  - SnapKit (5.0.1)
   - SwiftARGB (2.0.0)
   - TinyLog (2.0.7)
-  - UIViewKVO (2.0.0)
 
 DEPENDENCIES:
-  - Dimmer
   - Firebase
   - Firebase/Analytics
   - Firebase/Auth
@@ -140,8 +132,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - Dimmer
-    - FadeView
     - Firebase
     - FirebaseAnalytics
     - FirebaseAnalyticsInterop
@@ -166,14 +156,10 @@ SPEC REPOS:
     - PromisesObjC
     - Protobuf
     - PureLayout
-    - SnapKit
     - SwiftARGB
     - TinyLog
-    - UIViewKVO
 
 SPEC CHECKSUMS:
-  Dimmer: 55721e2f218f965474b8319d4457ed76e5e59ef0
-  FadeView: 80197da2fbee5382b178127e8c5f988a35eef018
   Firebase: 497158b816d0a86fc31babbd05546fcd7e6083ff
   FirebaseAnalytics: cf95d3aab897612783020fbd98401d5366f135ee
   FirebaseAnalyticsInterop: 3f86269c38ae41f47afeb43ebf32a001f58fcdae
@@ -198,11 +184,9 @@ SPEC CHECKSUMS:
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
   PureLayout: 9b4ad47b2f0388c84ff534af23d96e720c1b875a
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftARGB: 8727cfcdcfe8709e707a2391f1d5802a7c40dcad
   TinyLog: 073a9abfd44a944886d5d07aa49cbba5ef192335
-  UIViewKVO: 091f9e020d69e73c4bf5e5ef61cde7bff1c24bbf
 
-PODFILE CHECKSUM: de7d0e552fdaa3cf02f92636c5f044e4228b9345
+PODFILE CHECKSUM: 9e6e70ade80b0f83ebdbb04c3fa97daed22deafa
 
 COCOAPODS: 1.8.4

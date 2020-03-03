@@ -3,19 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		043BCDF4240E8E5100E42FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCDF3240E8E5100E42FFF /* AppDelegate.swift */; };
-		043BCDF6240E8E5100E42FFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCDF5240E8E5100E42FFF /* SceneDelegate.swift */; };
 		043BCDF8240E8E5100E42FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCDF7240E8E5100E42FFF /* ViewController.swift */; };
-		043BCDFB240E8E5100E42FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043BCDF9240E8E5100E42FFF /* Main.storyboard */; };
 		043BCDFD240E8E5300E42FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043BCDFC240E8E5300E42FFF /* Assets.xcassets */; };
 		043BCE00240E8E5300E42FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043BCDFE240E8E5300E42FFF /* LaunchScreen.storyboard */; };
 		043BCE0B240E8E5300E42FFF /* DummyCameraWithFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCE0A240E8E5300E42FFF /* DummyCameraWithFilterTests.swift */; };
 		043BCE16240E8E5300E42FFF /* DummyCameraWithFilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCE15240E8E5300E42FFF /* DummyCameraWithFilterUITests.swift */; };
 		043BCE25240EBA2700E42FFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCE24240EBA2700E42FFF /* MainViewController.swift */; };
+		04A43CFE240EC9530083E2AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A43CFD240EC9530083E2AC /* GoogleService-Info.plist */; };
 		7167F7A71269AB022C6E4029 /* Pods_DummyCameraWithFilterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D511EF18172377441BDE3F08 /* Pods_DummyCameraWithFilterTests.framework */; };
 		721D3A0ACA7129E8E79EB577 /* Pods_DummyCameraWithFilter_DummyCameraWithFilterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF98A047F2A07F020B7E755A /* Pods_DummyCameraWithFilter_DummyCameraWithFilterUITests.framework */; };
 		D74334AA354FF550C8A22059 /* Pods_DummyCameraWithFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD2C7E6F976A6B3D122E243 /* Pods_DummyCameraWithFilter.framework */; };
@@ -41,9 +40,7 @@
 /* Begin PBXFileReference section */
 		043BCDF0240E8E5100E42FFF /* DummyCameraWithFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyCameraWithFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043BCDF3240E8E5100E42FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		043BCDF5240E8E5100E42FFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		043BCDF7240E8E5100E42FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		043BCDFA240E8E5100E42FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043BCDFC240E8E5300E42FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043BCDFF240E8E5300E42FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043BCE01240E8E5300E42FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +51,7 @@
 		043BCE15240E8E5300E42FFF /* DummyCameraWithFilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCameraWithFilterUITests.swift; sourceTree = "<group>"; };
 		043BCE17240E8E5300E42FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043BCE24240EBA2700E42FFF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		04A43CFD240EC9530083E2AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		21F56C92BE1CF84F53B0AA26 /* Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests.release.xcconfig"; path = "Target Support Files/Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests/Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3E6811F0BE072F7FFCC90655 /* Pods-DummyCameraWithFilterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCameraWithFilterTests.release.xcconfig"; path = "Target Support Files/Pods-DummyCameraWithFilterTests/Pods-DummyCameraWithFilterTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E87C4DDA610F306683093F5 /* Pods-DummyCameraWithFilterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCameraWithFilterTests.debug.xcconfig"; path = "Target Support Files/Pods-DummyCameraWithFilterTests/Pods-DummyCameraWithFilterTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,11 +116,10 @@
 		043BCDF2240E8E5100E42FFF /* DummyCameraWithFilter */ = {
 			isa = PBXGroup;
 			children = (
+				04A43CFD240EC9530083E2AC /* GoogleService-Info.plist */,
 				043BCE23240E8F4B00E42FFF /* view */,
 				043BCDF3240E8E5100E42FFF /* AppDelegate.swift */,
-				043BCDF5240E8E5100E42FFF /* SceneDelegate.swift */,
 				043BCDF7240E8E5100E42FFF /* ViewController.swift */,
-				043BCDF9240E8E5100E42FFF /* Main.storyboard */,
 				043BCDFC240E8E5300E42FFF /* Assets.xcassets */,
 				043BCDFE240E8E5300E42FFF /* LaunchScreen.storyboard */,
 				043BCE01240E8E5300E42FFF /* Info.plist */,
@@ -166,7 +163,6 @@
 				6E87C4DDA610F306683093F5 /* Pods-DummyCameraWithFilterTests.debug.xcconfig */,
 				3E6811F0BE072F7FFCC90655 /* Pods-DummyCameraWithFilterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -289,9 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A43CFE240EC9530083E2AC /* GoogleService-Info.plist in Resources */,
 				043BCE00240E8E5300E42FFF /* LaunchScreen.storyboard in Resources */,
 				043BCDFD240E8E5300E42FFF /* Assets.xcassets in Resources */,
-				043BCDFB240E8E5100E42FFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +417,6 @@
 			files = (
 				043BCDF8240E8E5100E42FFF /* ViewController.swift in Sources */,
 				043BCDF4240E8E5100E42FFF /* AppDelegate.swift in Sources */,
-				043BCDF6240E8E5100E42FFF /* SceneDelegate.swift in Sources */,
 				043BCE25240EBA2700E42FFF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,14 +453,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		043BCDF9240E8E5100E42FFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				043BCDFA240E8E5100E42FFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		043BCDFE240E8E5300E42FFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
