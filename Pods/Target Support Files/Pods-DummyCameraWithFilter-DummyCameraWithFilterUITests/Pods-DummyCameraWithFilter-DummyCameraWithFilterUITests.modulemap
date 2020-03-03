@@ -1,0 +1,6 @@
+framework module Pods_DummyCameraWithFilter_DummyCameraWithFilterUITests {
+  umbrella header "Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
