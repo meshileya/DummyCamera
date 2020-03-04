@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1013476194732-7q3skhtdi0ueur39d84rucriv6gs5jc8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1013476194732-7q3skhtdi0ueur39d84rucriv6gs5jc8</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1013476194732-iqpoe4ukvau6362ts2ho13dsob0s1nne.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDecB31EebNWqFNmh8gP8Bn2-LdzBOI4Mo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1013476194732</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ios.dummy</string>
+	<key>PROJECT_ID</key>
+	<string>delivermo-9bdb3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>delivermo-9bdb3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1013476194732:ios:de42a46f8417f4f4506209</string>
+	<key>DATABASE_URL</key>
+	<string>https://delivermo-9bdb3.firebaseio.com</string>
+</dict>
+</plist>

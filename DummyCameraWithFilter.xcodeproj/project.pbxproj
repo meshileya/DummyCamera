@@ -14,6 +14,7 @@
 		04367AC8240FA49B00B8DA95 /* CameraPreviewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04367AC7240FA49B00B8DA95 /* CameraPreviewController+Extension.swift */; };
 		04367ACA240FA51200B8DA95 /* CameraPreviewController+GPUImageVideoCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04367AC9240FA51200B8DA95 /* CameraPreviewController+GPUImageVideoCameraDelegate.swift */; };
 		04367ACE240FE06600B8DA95 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04367ACD240FE06600B8DA95 /* Cache.swift */; };
+		04367AD0240FF1B900B8DA95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04367ACF240FF1B900B8DA95 /* GoogleService-Info.plist */; };
 		043BCDF4240E8E5100E42FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCDF3240E8E5100E42FFF /* AppDelegate.swift */; };
 		043BCDF8240E8E5100E42FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCDF7240E8E5100E42FFF /* ViewController.swift */; };
 		043BCDFD240E8E5300E42FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043BCDFC240E8E5300E42FFF /* Assets.xcassets */; };
@@ -21,7 +22,6 @@
 		043BCE0B240E8E5300E42FFF /* DummyCameraWithFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCE0A240E8E5300E42FFF /* DummyCameraWithFilterTests.swift */; };
 		043BCE16240E8E5300E42FFF /* DummyCameraWithFilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCE15240E8E5300E42FFF /* DummyCameraWithFilterUITests.swift */; };
 		043BCE25240EBA2700E42FFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCE24240EBA2700E42FFF /* MainViewController.swift */; };
-		04A43CFE240EC9530083E2AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A43CFD240EC9530083E2AC /* GoogleService-Info.plist */; };
 		04A43D00240EEE030083E2AC /* CameraPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A43CFF240EEE030083E2AC /* CameraPreviewController.swift */; };
 		04A43D02240EEF720083E2AC /* CameraPreview+Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A43D01240EEF720083E2AC /* CameraPreview+Video.swift */; };
 		7167F7A71269AB022C6E4029 /* Pods_DummyCameraWithFilterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D511EF18172377441BDE3F08 /* Pods_DummyCameraWithFilterTests.framework */; };
@@ -55,6 +55,7 @@
 		04367AC9240FA51200B8DA95 /* CameraPreviewController+GPUImageVideoCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraPreviewController+GPUImageVideoCameraDelegate.swift"; sourceTree = "<group>"; };
 		04367ACB240FDA1F00B8DA95 /* DummyCameraWithFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DummyCameraWithFilter.entitlements; sourceTree = "<group>"; };
 		04367ACD240FE06600B8DA95 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		04367ACF240FF1B900B8DA95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		043BCDF0240E8E5100E42FFF /* DummyCameraWithFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyCameraWithFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043BCDF3240E8E5100E42FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043BCDF7240E8E5100E42FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		043BCE15240E8E5300E42FFF /* DummyCameraWithFilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCameraWithFilterUITests.swift; sourceTree = "<group>"; };
 		043BCE17240E8E5300E42FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043BCE24240EBA2700E42FFF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		04A43CFD240EC9530083E2AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04A43CFF240EEE030083E2AC /* CameraPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewController.swift; sourceTree = "<group>"; };
 		04A43D01240EEF720083E2AC /* CameraPreview+Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraPreview+Video.swift"; sourceTree = "<group>"; };
 		21F56C92BE1CF84F53B0AA26 /* Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests.release.xcconfig"; path = "Target Support Files/Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests/Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +142,7 @@
 		043BCDE7240E8E5100E42FFF = {
 			isa = PBXGroup;
 			children = (
+				04367ACF240FF1B900B8DA95 /* GoogleService-Info.plist */,
 				043BCDF2240E8E5100E42FFF /* DummyCameraWithFilter */,
 				043BCE09240E8E5300E42FFF /* DummyCameraWithFilterTests */,
 				043BCE14240E8E5300E42FFF /* DummyCameraWithFilterUITests */,
@@ -168,7 +169,6 @@
 				04367ACB240FDA1F00B8DA95 /* DummyCameraWithFilter.entitlements */,
 				04367AC0240F9F5300B8DA95 /* protocols */,
 				04367ABF240F9F4700B8DA95 /* extensions */,
-				04A43CFD240EC9530083E2AC /* GoogleService-Info.plist */,
 				043BCE23240E8F4B00E42FFF /* view */,
 				043BCDF3240E8E5100E42FFF /* AppDelegate.swift */,
 				043BCDF7240E8E5100E42FFF /* ViewController.swift */,
@@ -338,8 +338,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A43CFE240EC9530083E2AC /* GoogleService-Info.plist in Resources */,
 				043BCE00240E8E5300E42FFF /* LaunchScreen.storyboard in Resources */,
+				04367AD0240FF1B900B8DA95 /* GoogleService-Info.plist in Resources */,
 				043BCDFD240E8E5300E42FFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

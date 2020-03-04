@@ -89,6 +89,25 @@ class MainViewController : CameraPreviewController {
         button.addTarget(self, action: #selector(clearFilterCall), for: .touchUpInside)
         return button
     }()
+    
+    func showToastMesage(message : String) {
+
+        let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 75, y: self.view.frame.size.height-100, width: 150, height: 35))
+        toastLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        toastLabel.textColor = UIColor.white
+        toastLabel.textAlignment = .center;
+        toastLabel.font = UIFont.systemFont(ofSize: 12)
+        toastLabel.text = message
+        toastLabel.alpha = 1.0
+        toastLabel.layer.cornerRadius = 10;
+        toastLabel.clipsToBounds  =  true
+        self.view.addSubview(toastLabel)
+        UIView.animate(withDuration: 4.0, delay: 0.1, options: .curveEaseOut, animations: {
+            toastLabel.alpha = 0.0
+        }, completion: {(isCompleted) in
+            toastLabel.removeFromSuperview()
+        })
+    }
 }
 
 extension MainViewController {
@@ -101,14 +120,14 @@ extension MainViewController {
             if self.isRecordingVideo {
                 print("STARTTTT")
                 sender.setTitle("Start Recording", for: .normal)
-              self.finishRecordingVideo(completion: {
-              })
-          } else {
-                print("STOPPPPP")
+                self.finishRecordingVideo(completion: {
+                    self.showToastMesage(message: "Saved")
+                })
+            } else {
                 sender.setTitle("Stop Recording", for: .normal)
-              self.startRecordingVideo(completion: {
-              })
-          }
+                self.startRecordingVideo(completion: {
+                })
+            }
         }
     }
     
@@ -127,25 +146,17 @@ extension MainViewController {
 extension MainViewController: CameraPreviewControllerDelegate {
     
     func cameraPreview(_ controller: CameraPreviewController, didSaveVideoAt url: URL) {
-        print("DONE WITH VIDEO")
         if UIVideoAtPathIsCompatibleWithSavedPhotosAlbum(url.path) {
             UISaveVideoAtPathToSavedPhotosAlbum(url.path, self, #selector(finishedWriteVideoToSavedPhotosAlbum), nil)
-        } else {
-            print("Given path: \(url.absoluteString) is not compatible with \"Saved Photos Album\"")
         }
     }
     
     func cameraPreview(_ controller: CameraPreviewController, didFailSaveVideoWithError error: Error) {
-//        btnTakeVideo.hideLoading()
+        //        btnTakeVideo.hideLoading()
     }
     
     func cameraPreview(_ controller: CameraPreviewController, willOutput sampleBuffer: CMSampleBuffer, with sequence: UInt64) {
         
-    }
-    
-    func cameraPreview(_ controller: CameraPreviewController, willFocusInto locationInView: CGPoint, tappedLocationInImage locationInImage: CGPoint) {
-        print("Focusing location in view: \(locationInView)")
-        print("Focusing location(ratio) in image: \(locationInImage)")
     }
 }
 
@@ -155,40 +166,25 @@ extension MainViewController {
         if let error = error {
             print("Error: \(error.localizedDescription)")
         } else {
-            if let videoUrl = URL(string: videoPath) {
-                let ref = Storage.storage().reference()
-                       let meta = StorageMetadata()
-                       meta.contentType = "video/quicktime"
-                
-//
-//            let uploadTask = ref.putFile(from: URL(string: "file://\(videoPath)")!, metadata: nil) { metadata, error in
-//                  if let error = error
-//                  {
-//                    print("ERROR \(error)")
-//                    //do error handle
-//                  }
-//                }
-                
-                
-                
-                       
-                       if let videoData = NSData(contentsOf: videoUrl) as Data? {
-                                   let uploadTask = ref.putData(videoData, metadata: meta){ meta, error in
-                                     if let error = error
-                                     {
-                                         print("I AM HERERERER")
-                                       print(error)
-                                     }
-                                   }
-                       }
+            let customVideoPath: String = "file://\(videoPath)"
+            if let videoURL = URL(string: videoPath) {
+                debugPrint("videoURL: \(videoURL)")
+            } else {
+                debugPrint("Could not parse URL \(videoPath)")
             }
-            
-            CacheHelper().cacheData(data: videoPath, key: "vidFileUrl")
-            print("Successfully saved a video file in Photo Library: \(videoPath)")
-        }
-        DispatchQueue.main.async {
-//            self.btnTakeVideo.setTitle("Take Video", for: .normal)
-//            self.btnTakeVideo.hideLoading()
+            if let videoUrl = URL(string: customVideoPath) {
+                let ref = Storage.storage().reference().child("\(NSDate().timeIntervalSince1970)")
+                let meta = StorageMetadata()
+                meta.contentType = "video/quicktime"
+                if let videoData = NSData(contentsOf: videoUrl) as Data? {
+                    ref.putData(videoData, metadata: meta){ meta, error in
+                        if let error = error
+                        {
+                            print(error)
+                        }
+                    }
+                }
+            }
         }
     }
 }
