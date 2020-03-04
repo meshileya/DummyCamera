@@ -113,22 +113,25 @@ class MainViewController : CameraPreviewController {
 extension MainViewController {
     
     @objc public func onHistoryCall(sender: UIButton){
-        
+        let vc = VideoHistoryController()
+        self.present(vc, animated: false, completion: nil)
     }
     @objc public func startStopRecordingCall(sender: UIButton) {
-        DispatchQueue.main.async {
+        
             if self.isRecordingVideo {
                 print("STARTTTT")
                 sender.setTitle("Start Recording", for: .normal)
                 self.finishRecordingVideo(completion: {
-                    self.showToastMesage(message: "Saved")
+                    DispatchQueue.main.async {
+                       self.showToastMesage(message: "Saved")
+                    }
+                    
                 })
             } else {
                 sender.setTitle("Stop Recording", for: .normal)
                 self.startRecordingVideo(completion: {
                 })
             }
-        }
     }
     
     
@@ -173,7 +176,7 @@ extension MainViewController {
                 debugPrint("Could not parse URL \(videoPath)")
             }
             if let videoUrl = URL(string: customVideoPath) {
-                let ref = Storage.storage().reference().child("\(NSDate().timeIntervalSince1970)")
+                let ref = Storage.storage().reference().child("files/\(NSDate().timeIntervalSince1970)")
                 let meta = StorageMetadata()
                 meta.contentType = "video/quicktime"
                 if let videoData = NSData(contentsOf: videoUrl) as Data? {
