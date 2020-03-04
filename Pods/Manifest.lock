@@ -115,7 +115,6 @@ PODS:
   - Protobuf (3.11.2)
   - PureLayout (3.1.5)
   - SwiftARGB (2.0.0)
-  - TinyLog (2.0.7)
 
 DEPENDENCIES:
   - Firebase
@@ -128,7 +127,6 @@ DEPENDENCIES:
   - GPUImage
   - PureLayout
   - SwiftARGB
-  - TinyLog
 
 SPEC REPOS:
   trunk:
@@ -157,7 +155,6 @@ SPEC REPOS:
     - Protobuf
     - PureLayout
     - SwiftARGB
-    - TinyLog
 
 SPEC CHECKSUMS:
   Firebase: 497158b816d0a86fc31babbd05546fcd7e6083ff
@@ -185,8 +182,7 @@ SPEC CHECKSUMS:
   Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
   PureLayout: 9b4ad47b2f0388c84ff534af23d96e720c1b875a
   SwiftARGB: 8727cfcdcfe8709e707a2391f1d5802a7c40dcad
-  TinyLog: 073a9abfd44a944886d5d07aa49cbba5ef192335
 
-PODFILE CHECKSUM: 9e6e70ade80b0f83ebdbb04c3fa97daed22deafa
+PODFILE CHECKSUM: 53ee7c8fad90a1c85c3de02a6d06c5f39fd8c337
 
 COCOAPODS: 1.8.4

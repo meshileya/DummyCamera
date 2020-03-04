@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041786BC240F0600007F7061 /* CameraPreviewController+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041786BB240F0600007F7061 /* CameraPreviewController+Filter.swift */; };
+		04367AC2240F9FAB00B8DA95 /* CameraPreviewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04367AC1240F9FAB00B8DA95 /* CameraPreviewControllerDelegate.swift */; };
+		04367AC4240FA14B00B8DA95 /* CameraPreviewControllerLayoutourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04367AC3240FA14B00B8DA95 /* CameraPreviewControllerLayoutourceDelegate.swift */; };
+		04367AC6240FA1B700B8DA95 /* CameraPreviewController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04367AC5240FA1B700B8DA95 /* CameraPreviewController+UIGestureRecognizerDelegate.swift */; };
+		04367AC8240FA49B00B8DA95 /* CameraPreviewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04367AC7240FA49B00B8DA95 /* CameraPreviewController+Extension.swift */; };
+		04367ACA240FA51200B8DA95 /* CameraPreviewController+GPUImageVideoCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04367AC9240FA51200B8DA95 /* CameraPreviewController+GPUImageVideoCameraDelegate.swift */; };
+		04367ACE240FE06600B8DA95 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04367ACD240FE06600B8DA95 /* Cache.swift */; };
 		043BCDF4240E8E5100E42FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCDF3240E8E5100E42FFF /* AppDelegate.swift */; };
 		043BCDF8240E8E5100E42FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCDF7240E8E5100E42FFF /* ViewController.swift */; };
 		043BCDFD240E8E5300E42FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043BCDFC240E8E5300E42FFF /* Assets.xcassets */; };
@@ -15,6 +22,8 @@
 		043BCE16240E8E5300E42FFF /* DummyCameraWithFilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCE15240E8E5300E42FFF /* DummyCameraWithFilterUITests.swift */; };
 		043BCE25240EBA2700E42FFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCE24240EBA2700E42FFF /* MainViewController.swift */; };
 		04A43CFE240EC9530083E2AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A43CFD240EC9530083E2AC /* GoogleService-Info.plist */; };
+		04A43D00240EEE030083E2AC /* CameraPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A43CFF240EEE030083E2AC /* CameraPreviewController.swift */; };
+		04A43D02240EEF720083E2AC /* CameraPreview+Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A43D01240EEF720083E2AC /* CameraPreview+Video.swift */; };
 		7167F7A71269AB022C6E4029 /* Pods_DummyCameraWithFilterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D511EF18172377441BDE3F08 /* Pods_DummyCameraWithFilterTests.framework */; };
 		721D3A0ACA7129E8E79EB577 /* Pods_DummyCameraWithFilter_DummyCameraWithFilterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF98A047F2A07F020B7E755A /* Pods_DummyCameraWithFilter_DummyCameraWithFilterUITests.framework */; };
 		D74334AA354FF550C8A22059 /* Pods_DummyCameraWithFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD2C7E6F976A6B3D122E243 /* Pods_DummyCameraWithFilter.framework */; };
@@ -38,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041786BB240F0600007F7061 /* CameraPreviewController+Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraPreviewController+Filter.swift"; sourceTree = "<group>"; };
+		04367AC1240F9FAB00B8DA95 /* CameraPreviewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewControllerDelegate.swift; sourceTree = "<group>"; };
+		04367AC3240FA14B00B8DA95 /* CameraPreviewControllerLayoutourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewControllerLayoutourceDelegate.swift; sourceTree = "<group>"; };
+		04367AC5240FA1B700B8DA95 /* CameraPreviewController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraPreviewController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		04367AC7240FA49B00B8DA95 /* CameraPreviewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraPreviewController+Extension.swift"; sourceTree = "<group>"; };
+		04367AC9240FA51200B8DA95 /* CameraPreviewController+GPUImageVideoCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraPreviewController+GPUImageVideoCameraDelegate.swift"; sourceTree = "<group>"; };
+		04367ACB240FDA1F00B8DA95 /* DummyCameraWithFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DummyCameraWithFilter.entitlements; sourceTree = "<group>"; };
+		04367ACD240FE06600B8DA95 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		043BCDF0240E8E5100E42FFF /* DummyCameraWithFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyCameraWithFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043BCDF3240E8E5100E42FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043BCDF7240E8E5100E42FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +69,8 @@
 		043BCE17240E8E5300E42FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043BCE24240EBA2700E42FFF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		04A43CFD240EC9530083E2AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04A43CFF240EEE030083E2AC /* CameraPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewController.swift; sourceTree = "<group>"; };
+		04A43D01240EEF720083E2AC /* CameraPreview+Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraPreview+Video.swift"; sourceTree = "<group>"; };
 		21F56C92BE1CF84F53B0AA26 /* Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests.release.xcconfig"; path = "Target Support Files/Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests/Pods-DummyCameraWithFilter-DummyCameraWithFilterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3E6811F0BE072F7FFCC90655 /* Pods-DummyCameraWithFilterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCameraWithFilterTests.release.xcconfig"; path = "Target Support Files/Pods-DummyCameraWithFilterTests/Pods-DummyCameraWithFilterTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E87C4DDA610F306683093F5 /* Pods-DummyCameraWithFilterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCameraWithFilterTests.debug.xcconfig"; path = "Target Support Files/Pods-DummyCameraWithFilterTests/Pods-DummyCameraWithFilterTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +110,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04367ABF240F9F4700B8DA95 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				041786BB240F0600007F7061 /* CameraPreviewController+Filter.swift */,
+				04A43D01240EEF720083E2AC /* CameraPreview+Video.swift */,
+				04367AC5240FA1B700B8DA95 /* CameraPreviewController+UIGestureRecognizerDelegate.swift */,
+				04367AC7240FA49B00B8DA95 /* CameraPreviewController+Extension.swift */,
+				04367AC9240FA51200B8DA95 /* CameraPreviewController+GPUImageVideoCameraDelegate.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		04367AC0240F9F5300B8DA95 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				04367AC1240F9FAB00B8DA95 /* CameraPreviewControllerDelegate.swift */,
+				04367AC3240FA14B00B8DA95 /* CameraPreviewControllerLayoutourceDelegate.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		04367ACC240FE03700B8DA95 /* datamanger */ = {
+			isa = PBXGroup;
+			children = (
+				04367ACD240FE06600B8DA95 /* Cache.swift */,
+			);
+			path = datamanger;
+			sourceTree = "<group>";
+		};
 		043BCDE7240E8E5100E42FFF = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +164,10 @@
 		043BCDF2240E8E5100E42FFF /* DummyCameraWithFilter */ = {
 			isa = PBXGroup;
 			children = (
+				04367ACC240FE03700B8DA95 /* datamanger */,
+				04367ACB240FDA1F00B8DA95 /* DummyCameraWithFilter.entitlements */,
+				04367AC0240F9F5300B8DA95 /* protocols */,
+				04367ABF240F9F4700B8DA95 /* extensions */,
 				04A43CFD240EC9530083E2AC /* GoogleService-Info.plist */,
 				043BCE23240E8F4B00E42FFF /* view */,
 				043BCDF3240E8E5100E42FFF /* AppDelegate.swift */,
@@ -149,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				043BCE24240EBA2700E42FFF /* MainViewController.swift */,
+				04A43CFF240EEE030083E2AC /* CameraPreviewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -415,9 +468,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04367ACA240FA51200B8DA95 /* CameraPreviewController+GPUImageVideoCameraDelegate.swift in Sources */,
+				04367AC2240F9FAB00B8DA95 /* CameraPreviewControllerDelegate.swift in Sources */,
+				04367AC4240FA14B00B8DA95 /* CameraPreviewControllerLayoutourceDelegate.swift in Sources */,
 				043BCDF8240E8E5100E42FFF /* ViewController.swift in Sources */,
 				043BCDF4240E8E5100E42FFF /* AppDelegate.swift in Sources */,
 				043BCE25240EBA2700E42FFF /* MainViewController.swift in Sources */,
+				04A43D00240EEE030083E2AC /* CameraPreviewController.swift in Sources */,
+				04367AC6240FA1B700B8DA95 /* CameraPreviewController+UIGestureRecognizerDelegate.swift in Sources */,
+				04367AC8240FA49B00B8DA95 /* CameraPreviewController+Extension.swift in Sources */,
+				04A43D02240EEF720083E2AC /* CameraPreview+Video.swift in Sources */,
+				04367ACE240FE06600B8DA95 /* Cache.swift in Sources */,
+				041786BC240F0600007F7061 /* CameraPreviewController+Filter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,14 +645,15 @@
 			baseConfigurationReference = F535FDDF9D19C8F016522829 /* Pods-DummyCameraWithFilter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DummyCameraWithFilter/DummyCameraWithFilter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6MLPGBWM96;
+				DEVELOPMENT_TEAM = THY8BX5B8X;
 				INFOPLIST_FILE = DummyCameraWithFilter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.DummyCameraWithFilter;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.dummy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -602,14 +665,15 @@
 			baseConfigurationReference = EAFD501CDE2422BBCA42E00B /* Pods-DummyCameraWithFilter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DummyCameraWithFilter/DummyCameraWithFilter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6MLPGBWM96;
+				DEVELOPMENT_TEAM = THY8BX5B8X;
 				INFOPLIST_FILE = DummyCameraWithFilter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.DummyCameraWithFilter;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.dummy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
